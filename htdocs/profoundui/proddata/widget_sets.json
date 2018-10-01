@@ -1,0 +1,921 @@
+{
+	"sets": [{
+			"name": "Blueprint",
+			"widgets": [{
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-label.png",
+					"name": "Label",
+					"properties": {
+						"css class": "label",
+						"css class 2": "blueprint-defaults",
+						"css class 3": "blueprint-label",
+						"field type": "output field",
+						"value": "Label:"
+					}
+				}, {
+					"autoGen": true,
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-output-field.png",
+					"name": "Output Field",
+					"properties": {
+						"css class": "outputField",
+						"css class 2": "blueprint-defaults",
+						"css class 3": "blueprint-output-field",
+						"field type": "output field",
+						"value": {
+							"dataLength": "10",
+							"dataType": "char",
+							"designValue": "[Field0001]",
+							"fieldName": "Field0001",
+							"formatting": "Text",
+							"textTransform": "none",
+							"trimLeading": "false",
+							"trimTrailing": "true"
+						}
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-textbox.png",
+					"name": "Textbox",
+					"properties": {
+						"css class": "blueprint-defaults",
+						"css class 2": "blueprint-textbox",
+						"field type": "textbox",
+						"height": "25px",
+						"width": "150px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-hyperlink.png",
+					"name": "Hyperlink",
+					"properties": {
+						"css class": "blueprint-defaults",
+						"css class 2": "blueprint-hyperlink",
+						"field type": "hyperlink",
+						"value": "Click Here"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-text-area.png",
+					"name": "Text Area",
+					"properties": {
+						"css class": "blueprint-defaults",
+						"css class 2": "blueprint-text-area",
+						"field type": "text area",
+						"height": "100px",
+						"width": "200px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-wrapping-text.png",
+					"name": "Wrapping Text Field",
+					"properties": {
+						"css class": "blueprint-defaults",
+						"css class 2": "blueprint-wrapping-text",
+						"field type": "html container",
+						"height": "60px",
+						"html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+						"white space": "normal",
+						"width": "225px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-button.png",
+					"name": "Primary Button",
+					"properties": {
+						"css class": "blueprint-button",
+						"css class 2": "blueprint-alt-defaults",
+						"field type": "graphic button",
+						"height": "25px",
+						"value": "Click Here",
+						"width": "100px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-button.png",
+					"name": "Secondary Button",
+					"properties": {
+						"css class": "blueprint-button-secondary",
+						"css class 2": "blueprint-defaults",
+						"field type": "graphic button",
+						"height": "25px",
+						"value": "Click Here",
+						"width": "100px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/button-red-white.png",
+					"name": "Cancel Button",
+					"properties": {
+						"css class": "pui-solid-button-no",
+						"css class 2": "blueprint-defaults",
+						"field type": "graphic button",
+						"height": "25px",
+						"icon": "material:clear",
+						"icon position": "left",
+						"value": "Cancel",
+						"width": "100px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/button-green-white.png",
+					"name": "Accept Button",
+					"properties": {
+						"css class": "pui-solid-button-yes",
+						"css class 2": "blueprint-defaults",
+						"field type": "graphic button",
+						"height": "25px",
+						"icon": "material:check",
+						"icon position": "left",
+						"value": "Accept",
+						"width": "100px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-radio-button.png",
+					"name": "Radio Button",
+					"properties": {
+						"css class": "blueprint-radio-button",
+						"field type": "radio button",
+						"label": "Radio Button"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-radio-button.png",
+					"name": "Radio Button - No Label",
+					"properties": {
+						"css class": "blueprint-radio-button-no-label",
+						"field type": "radio button",
+						"label": "Radio Button"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-checkbox.png",
+					"name": "Checkbox",
+					"properties": {
+						"css class": "blueprint-checkbox",
+						"field type": "checkbox",
+						"label": "Checkbox"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-checkbox.png",
+					"name": "Checkbox - No Label",
+					"properties": {
+						"css class": "blueprint-checkbox-no-label",
+						"field type": "checkbox",
+						"label": "Checkbox"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-select-box.png",
+					"name": "Dropdown Box",
+					"properties": {
+						"choices": "Option 1,Option 2,Option 3,Option 4,Option 5",
+						"css class": "blueprint-select-box",
+						"css class 2": "blueprint-defaults",
+						"field type": "select box",
+						"height": "25px",
+						"width": "150px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-combo-box.png",
+					"name": "Combo Box",
+					"properties": {
+						"choices": "Option 1,Option 2,Option 3,Option 4,Option 5",
+						"css class": "blueprint-combo-box",
+						"css class 2": "blueprint-defaults",
+						"field type": "combo box",
+						"height": "25px",
+						"width": "150px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-list-box.png",
+					"name": "List Box",
+					"properties": {
+						"choices": "Option 1,Option 2,Option 3,Option 4,Option 5,Option 6,Option 7,Option 8,Option 9,Option 10",
+						"css class": "blueprint-list-box",
+						"css class 2": "blueprint-defaults",
+						"field type": "select box",
+						"height": "110px",
+						"select box height": "5",
+						"width": "150px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-menu.png",
+					"name": "Menu",
+					"properties": {
+						"choices": "Option 1,Option 2,Option 3,Option 4,Option 5",
+						"css class": "blueprint-menu",
+						"css class 2": "blueprint-defaults",
+						"field type": "menu",
+						"height": "fit-content",
+						"width": "200px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-spinner-vertical.png",
+					"name": "Spinner Box",
+					"properties": {
+						"css class": "blueprint-spinner",
+						"css class 2": "blueprint-defaults",
+						"field type": "spinner",
+						"height": "25px",
+						"width": "70px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-slider.png",
+					"name": "Slider",
+					"properties": {
+						"css class": "blueprint-defaults",
+						"css class 2": "blueprint-slider",
+						"field type": "slider",
+						"height": "25px",
+						"max value": "1000",
+						"min value": "0",
+						"width": "150px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-switch.png",
+					"name": "On Off Switch",
+					"properties": {
+						"css class": "blueprint-defaults",
+						"css class 2": "blueprint-switch",
+						"field type": "on off switch",
+						"height": "25px",
+						"off text": "do_not_disturb",
+						"on text": "check",
+						"width": "60px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-header-h.png",
+					"name": "Heading",
+					"properties": {
+						"css class": "heading",
+						"css class 2": "blueprint-defaults",
+						"css class 3": "blueprint-text-header",
+						"field type": "output field",
+						"value": "Heading"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-date-field.png",
+					"name": "Date Field",
+					"properties": {
+						"css class": "blueprint-date-field",
+						"css class 2": "blueprint-defaults",
+						"field type": "date field",
+						"height": "25px",
+						"width": "100px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-grid.png",
+					"name": "Grid",
+					"properties": {
+						"field type": "grid",
+						"css class": "blueprint-grid",
+						"css class 2": "blueprint-defaults",
+						"number of rows": "6",
+						"number of columns": 3,
+						"column widths": "100,100,110",
+						"column headings": "Header 1,Header 2,Header 3",
+						"border color": "transparent",
+						"header height": "35",
+						"row height": "35",
+						"height": "180px",
+						"width": "310px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-layout.png",
+					"name": "Responsive Layout",
+					"properties": {
+						"field type": "layout",
+						"height": "400px",
+						"layout items": "5",
+						"style rules": "@media screen { #_id_ > .puiresp { display:grid; grid-template-rows:auto; grid-template-columns:repeat(4, 1fr); grid-column-gap:3px; grid-row-gap:3px;}}",
+						"template": "responsive layout",
+						"use viewport": "true",
+						"width": "310px"
+					}
+				}, {
+					"name": "Tab Panel Layout",
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-tab-panel-blue.png",
+					"properties": {
+						"field type": "layout",
+						"css class": "blueprint-tab-panel-layout",
+						"template": "tab panel",
+						"height": "200px",
+						"width": "300px",
+						"css class 2": "blueprint-defaults",
+						"tab names": "Tab 1,Tab 2,Tab 3"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-password-field-stars.png",
+					"name": "Password Field",
+					"properties": {
+						"css class": "blueprint-defaults",
+						"css class 2": "blueprint-password-field",
+						"field type": "password field",
+						"height": "25px",
+						"width": "150px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-panel-02-white.png",
+					"name": "Panel - All White",
+					"properties": {
+						"body theme": "blueprint-white-body",
+						"css class": "blueprint-panel",
+						"css class 2": "blueprint-defaults",
+						"field type": "layout",
+						"header text": "Panel Title",
+						"header theme": "blueprint-white-header",
+						"height": "110px",
+						"template": "css panel",
+						"width": "175px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-panel-01-white.png",
+					"name": "Panel - Blue Header",
+					"properties": {
+						"body theme": "blueprint-white-body",
+						"css class": "blueprint-defaults",
+						"css class 2": "blueprint-panel",
+						"field type": "layout",
+						"header text": "Panel Title",
+						"header theme": "blueprint-light-blue-header",
+						"height": "110px",
+						"template": "css panel",
+						"width": "175px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-panel-01-white.png",
+					"name": "Panel - Dark Blue",
+					"properties": {
+						"body theme": "blueprint-white-body",
+						"css class": "blueprint-panel",
+						"css class 2": "blueprint-defaults",
+						"field type": "layout",
+						"header text": "Panel Title",
+						"header theme": "blueprint-dark-header",
+						"height": "110px",
+						"template": "css panel",
+						"width": "175px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-panel-02-blue.png",
+					"name": "Panel - All Blue",
+					"properties": {
+						"body theme": "blueprint-light-blue-body",
+						"css class": "blueprint-panel",
+						"css class 2": "blueprint-defaults",
+						"field type": "layout",
+						"header text": "Panel Title",
+						"header theme": "blueprint-dark-header",
+						"height": "110px",
+						"template": "css panel",
+						"width": "175px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-file-upload.png",
+					"name": "File Upload",
+					"properties": {
+						"css class": "blueprint-defaults",
+						"css class 3": "blueprint-file-upload",
+						"field type": "file upload",
+						"height": "140px",
+						"number of files": "1",
+						"overwrite files": "false",
+						"selection mode": "standard",
+						"size limit": "10",
+						"width": "360px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-drag-drop-upload.png",
+					"name": "Drag & Drop File Upload",
+					"properties": {
+						"css class": "blueprint-defaults",
+						"css class 2": "blueprint-file-upload",
+						"css class 3": "drag-and-drop-upload",
+						"field type": "file upload dnd",
+						"height": "250px",
+						"number of files": "1",
+						"overwrite files": "false",
+						"size limit": "10",
+						"width": "360px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-signature-pad.png",
+					"name": "Signature Pad",
+					"properties": {
+						"background color": "#E1F0FA",
+						"css class": "blueprint-defaults",
+						"css class 2": "blueprint-signature-pad",
+						"field type": "signature pad",
+						"height": "150px",
+						"width": "350px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/old/accordion-blue.png",
+					"name": "Accordion Layout - All Blue",
+					"properties": {
+						"allow collapse": "true",
+						"body theme": "blueprint-light-blue-body",
+						"css class": "blueprint-accordion-panel",
+						"css class 2": "blueprint-defaults",
+						"field type": "layout",
+						"header theme": "blueprint-dark-header",
+						"height": "300px",
+						"template": "accordion",
+						"width": "200px",
+						"z index": "8"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/old/accordion-blue.png",
+					"name": "Accordion Layout - All White",
+					"properties": {
+						"allow collapse": "true",
+						"body theme": "blueprint-white-body",
+						"css class": "blueprint-accordion-panel",
+						"css class 2": "blueprint-defaults",
+						"field type": "layout",
+						"header theme": "blueprint-white-header",
+						"height": "300px",
+						"template": "accordion",
+						"width": "200px",
+						"z index": "8"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/old/accordion-blue.png",
+					"name": "Accordion Layout - Blue Header",
+					"properties": {
+						"allow collapse": "true",
+						"body theme": "blueprint-white-body",
+						"css class": "blueprint-accordion-panel",
+						"css class 2": "blueprint-defaults",
+						"field type": "layout",
+						"header theme": "blueprint-light-blue-header",
+						"height": "300px",
+						"template": "accordion",
+						"width": "200px",
+						"z index": "8"
+					}
+				}
+			]
+		}, {
+			"name": "Office Copy",
+			"widgets": [{
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-label.png",
+					"name": "Label",
+					"properties": {
+						"css class": "label",
+						"css class 2": "office-copy-defaults",
+						"css class 3": "office-copy-label",
+						"field type": "output field",
+						"value": "Label:"
+					}
+				}, {
+					"autoGen": true,
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-output-field.png",
+					"name": "Output Field",
+					"properties": {
+						"css class": "outputField",
+						"css class 2": "office-copy-defaults",
+						"css class 3": "office-copy-output-field",
+						"field type": "output field",
+						"value": {
+							"dataLength": "10",
+							"dataType": "char",
+							"designValue": "[Field0001]",
+							"fieldName": "Field0001",
+							"formatting": "Text",
+							"textTransform": "none",
+							"trimLeading": "false",
+							"trimTrailing": "true"
+						}
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-textbox.png",
+					"name": "Textbox",
+					"properties": {
+						"css class": "office-copy-textbox",
+						"css class 2": "office-copy-defaults",
+						"field type": "textbox",
+						"height": "25px",
+						"width": "150px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-hyperlink.png",
+					"name": "Hyperlink",
+					"properties": {
+						"css class": "office-copy-defaults",
+						"css class 2": "office-copy-hyperlink",
+						"field type": "hyperlink",
+						"value": "Click Here"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-text-area.png",
+					"name": "Text Area",
+					"properties": {
+						"css class": "office-copy-defaults",
+						"css class 2": "office-copy-text-area",
+						"field type": "text area",
+						"height": "100px",
+						"width": "200px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-wrapping-text.png",
+					"name": "Wrapping Text Field",
+					"properties": {
+						"css class": "office-copy-defaults",
+						"css class 2": "office-copy-wrapping-text",
+						"field type": "html container",
+						"height": "60px",
+						"html": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+						"white space": "normal",
+						"width": "225px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-button.png",
+					"name": "Primary Button",
+					"properties": {
+						"css class": "office-copy-button",
+						"css class 2": "office-copy-alt-defaults",
+						"field type": "graphic button",
+						"height": "25px",
+						"value": "Click Here",
+						"width": "100px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/blueprint/blueprint-button.png",
+					"name": "Secondary Button",
+					"properties": {
+						"css class": "office-copy-button-secondary",
+						"css class 2": "office-copy-defaults",
+						"field type": "graphic button",
+						"height": "25px",
+						"value": "Click Here",
+						"width": "100px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/button-red-white.png",
+					"name": "Cancel Button",
+					"properties": {
+						"css class": "pui-solid-button-no",
+						"css class 2": "office-copy-defaults",
+						"field type": "graphic button",
+						"height": "25px",
+						"icon": "material:clear",
+						"icon position": "left",
+						"value": "Cancel",
+						"width": "100px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/button-green-white.png",
+					"name": "Accept Button",
+					"properties": {
+						"css class": "pui-solid-button-yes",
+						"css class 2": "office-copy-defaults",
+						"field type": "graphic button",
+						"height": "25px",
+						"icon": "material:check",
+						"icon position": "left",
+						"value": "Accept",
+						"width": "100px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-radio-button.png",
+					"name": "Radio Button",
+					"properties": {
+						"css class": "office-copy-radio-button",
+						"field type": "radio button",
+						"label": "Radio Button"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-radio-button.png",
+					"name": "Radio Button - No Label",
+					"properties": {
+						"css class": "office-copy-radio-button-no-label",
+						"field type": "radio button",
+						"label": "Radio Button"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-checkbox.png",
+					"name": "Checkbox",
+					"properties": {
+						"css class": "office-copy-checkbox",
+						"field type": "checkbox",
+						"label": "Checkbox"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-checkbox.png",
+					"name": "Checkbox - No Label",
+					"properties": {
+						"css class": "office-copy-checkbox-no-label",
+						"field type": "checkbox",
+						"label": "Checkbox"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-select-box.png",
+					"name": "Dropdown Box",
+					"properties": {
+						"choices": "Option 1,Option 2,Option 3,Option 4,Option 5",
+						"css class": "office-copy-select-box",
+						"css class 2": "office-copy-defaults",
+						"field type": "select box",
+						"height": "25px",
+						"width": "150px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-combo-box.png",
+					"name": "Combo Box",
+					"properties": {
+						"choices": "Option 1,Option 2,Option 3,Option 4,Option 5",
+						"css class": "office-copy-combo-box",
+						"css class 2": "office-copy-defaults",
+						"field type": "combo box",
+						"height": "25px",
+						"width": "150px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-list-box.png",
+					"name": "List Box",
+					"properties": {
+						"choices": "Option 1,Option 2,Option 3,Option 4,Option 5,Option 6,Option 7,Option 8,Option 9,Option 10",
+						"css class": "office-copy-list-box",
+						"css class 2": "office-copy-defaults",
+						"field type": "select box",
+						"height": "110px",
+						"select box height": "5",
+						"width": "150px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-menu.png",
+					"name": "Menu",
+					"properties": {
+						"choices": "Option 1,Option 2,Option 3,Option 4,Option 5",
+						"css class": "office-copy-menu",
+						"css class 2": "office-copy-defaults",
+						"field type": "menu",
+						"height": "fit-content",
+						"width": "200px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-spinner-vertical.png",
+					"name": "Spinner Box",
+					"properties": {
+						"css class": "office-copy-spinner",
+						"css class 2": "office-copy-defaults",
+						"field type": "spinner",
+						"height": "25px",
+						"width": "70px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-slider.png",
+					"name": "Slider",
+					"properties": {
+						"css class": "office-copy-defaults",
+						"css class 2": "office-copy-slider",
+						"field type": "slider",
+						"height": "25px",
+						"max value": "1000",
+						"min value": "0",
+						"width": "150px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-switch.png",
+					"name": "On Off Switch",
+					"properties": {
+						"css class": "office-copy-defaults",
+						"css class 2": "office-copy-switch",
+						"field type": "on off switch",
+						"height": "25px",
+						"off text": "do_not_disturb",
+						"on text": "check",
+						"width": "60px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-header-h.png",
+					"name": "Heading",
+					"properties": {
+						"css class": "heading",
+						"css class 2": "office-copy-defaults",
+						"css class 3": "office-copy-text-header",
+						"field type": "output field",
+						"value": "Heading"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-date-field.png",
+					"name": "Date Field",
+					"properties": {
+						"css class": "office-copy-date-field",
+						"css class 2": "office-copy-defaults",
+						"field type": "date field",
+						"height": "25px",
+						"width": "100px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-grid.png",
+					"name": "Grid",
+					"properties": {
+						"field type": "grid",
+						"css class": "office-copy-grid",
+						"css class 2": "office-copy-defaults",
+						"number of rows": "6",
+						"number of columns": 3,
+						"column widths": "100,100,110",
+						"column headings": "Header 1,Header 2,Header 3",
+						"header height": "35",
+						"row height": "35",
+						"border color": "transparent",
+						"height": "180px",
+						"width": "310px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-password-field-stars.png",
+					"name": "Password Field",
+					"properties": {
+						"css class": "office-copy-defaults",
+						"css class 2": "office-copy-password-field",
+						"field type": "password field",
+						"height": "25px",
+						"width": "150px"
+					}
+				}, {
+					"name": "Tab Panel Layout - White",
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-tab-panel-gray.png",
+					"properties": {
+						"field type": "layout",
+						"css class": "office-copy-tab-panel-layout-white",
+						"template": "tab panel",
+						"height": "200px",
+						"width": "300px",
+						"css class 2": "office-copy-defaults",
+						"tab names": "Tab 1,Tab 2,Tab 3"
+					}
+				}, {
+					"name": "Tab Panel Layout - Gray",
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-tab-panel-gray.png",
+					"properties": {
+						"field type": "layout",
+						"css class": "office-copy-tab-panel-layout",
+						"template": "tab panel",
+						"height": "200px",
+						"width": "295px",
+						"css class 2": "office-copy-defaults",
+						"tab names": "Tab 1,Tab 2,Tab 3"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-layout.png",
+					"name": "Responsive Layout",
+					"properties": {
+						"field type": "layout",
+						"height": "400px",
+						"layout items": "5",
+						"style rules": "@media screen { #_id_ > .puiresp { display:grid; grid-template-rows:auto; grid-template-columns:repeat(4, 1fr); grid-column-gap:3px; grid-row-gap:3px;}}",
+						"template": "responsive layout",
+						"use viewport": "true",
+						"width": "310px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-panel-01-white.png",
+					"name": "Panel - Gray Header",
+					"properties": {
+						"body theme": "office-copy-white-body",
+						"css class": "office-copy-defaults",
+						"css class 2": "office-copy-panel",
+						"field type": "layout",
+						"header text": "Panel Title",
+						"header theme": "office-copy-gray-header",
+						"height": "110px",
+						"template": "css panel",
+						"width": "175px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-panel-01-white.png",
+					"name": "Panel - Dark Gray",
+					"properties": {
+						"body theme": "office-copy-white-body",
+						"css class": "office-copy-panel",
+						"css class 2": "office-copy-defaults",
+						"field type": "layout",
+						"header text": "Panel Title",
+						"header theme": "office-copy-dark-header",
+						"height": "110px",
+						"template": "css panel",
+						"width": "175px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-panel-02-white.png",
+					"name": "Panel - All White",
+					"properties": {
+						"body theme": "office-copy-white-body",
+						"css class": "office-copy-panel",
+						"css class 2": "office-copy-defaults",
+						"field type": "layout",
+						"header text": "Panel Title",
+						"header theme": "office-copy-white-header",
+						"height": "110px",
+						"template": "css panel",
+						"width": "175px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-panel-02-gray.png",
+					"name": "Panel - All Gray",
+					"properties": {
+						"body theme": "office-copy-gray-body",
+						"css class": "office-copy-panel",
+						"css class 2": "office-copy-defaults",
+						"field type": "layout",
+						"header text": "Panel Title",
+						"header theme": "office-copy-dark-header",
+						"height": "110px",
+						"template": "css panel",
+						"width": "175px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-file-upload.png",
+					"name": "File Upload",
+					"properties": {
+						"css class": "office-copy-file-upload",
+						"css class 2": "office-copy-defaults",
+						"field type": "file upload",
+						"height": "140px",
+						"number of files": "1",
+						"overwrite files": "false",
+						"selection mode": "standard",
+						"size limit": "10",
+						"width": "360px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-drag-drop-upload.png",
+					"name": "Drag & Drop File Upload",
+					"properties": {
+						"css class": "office-copy-file-upload",
+						"css class 2": "office-copy-defaults",
+						"css class 3": "drag-and-drop-upload",
+						"field type": "file upload dnd",
+						"height": "250px",
+						"number of files": "1",
+						"overwrite files": "false",
+						"size limit": "10",
+						"width": "360px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/office-copy-signature-pad.png",
+					"name": "Signature Pad",
+					"properties": {
+						"background color": "#E9ECEF",
+						"css class": "office-copy-defaults",
+						"css class 2": "office-copy-signature-pad",
+						"field type": "signature pad",
+						"height": "150px",
+						"width": "350px"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/old/accordion-gray.png",
+					"name": "Accordion Layout - Gray Header",
+					"properties": {
+						"allow collapse": "true",
+						"body theme": "office-copy-white-body",
+						"css class": "office-copy-accordion-panel",
+						"css class 2": "office-copy-defaults",
+						"field type": "layout",
+						"header theme": "office-copy-gray-header",
+						"height": "300px",
+						"template": "accordion",
+						"width": "200px",
+						"z index": "8"
+					}
+				}, {
+					"name": "Accordion Layout - Black Header",
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/old/accordion-gray.png",
+					"properties": {
+						"field type": "layout",
+						"css class": "office-copy-accordion-panel",
+						"allow collapse": "true",
+						"body theme": "office-copy-gray-body",
+						"css class 2": "office-copy-defaults",
+						"header theme": "office-copy-black-header",
+						"height": "300px",
+						"template": "accordion",
+						"width": "200px",
+						"z index": 22
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/old/accordion-gray.png",
+					"name": "Accordion Layout - All White",
+					"properties": {
+						"allow collapse": "true",
+						"body theme": "office-copy-white-body",
+						"css class": "office-copy-accordion-panel",
+						"css class 2": "office-copy-defaults",
+						"field type": "layout",
+						"header theme": "office-copy-white-header",
+						"height": "300px",
+						"template": "accordion",
+						"width": "200px",
+						"z index": "8"
+					}
+				}, {
+					"icon": "/profoundui/proddata/images/widgetsets/office-copy/old/accordion-gray.png",
+					"name": "Accordion Layout - All Gray",
+					"properties": {
+						"allow collapse": "true",
+						"body theme": "office-copy-gray-body",
+						"css class": "office-copy-accordion-panel",
+						"css class 2": "office-copy-defaults",
+						"field type": "layout",
+						"header theme": "office-copy-dark-header",
+						"height": "300px",
+						"template": "accordion",
+						"width": "200px",
+						"z index": "8"
+					}
+				}
+			]
+		}
+	]
+}
